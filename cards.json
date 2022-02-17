@@ -1,0 +1,218 @@
+{
+  "monsters": [
+    {
+			"name": "Goblin Attack",
+      "zone": 4,
+			"clockwise": false,
+			"types": [5],
+			"shape": [
+        [
+          [true, false, false],
+          [false, true, false],
+          [false, false, true]
+        ]
+      ]
+		},
+		{
+			"name": "Bugbear Assault",
+      "zone": 2,
+			"clockwise": true,
+			"types": [5],
+			"shape": [
+        [
+          [true, false, true],
+          [true, false, true]
+        ]
+      ]
+		},
+		{
+			"name": "Kobold Onslaught",
+      "zone": 3,
+			"clockwise": true,
+			"types": [5],
+			"shape": [
+        [
+          [true, false],
+          [true, true],
+          [true, false]
+        ]
+      ]
+		},
+    {
+			"name": "Gnoll Raid",
+      "zone": 1,
+			"clockwise": false,
+			"types": [5],
+			"shape": [
+        [
+          [true, true],
+          [true, false],
+          [true, true]
+        ]
+      ]
+		}
+  ],
+  "explore": [
+    {
+			"name": "Temple Ruins",
+			"types": [6]
+		},
+    {
+			"name": "Outpost Ruins",
+			"types": [6]
+		},
+    {
+			"name": "Great River",
+      "time": 1,
+			"types": [1],
+      "coin": true,
+			"shape": [
+        [
+          [true],
+          [true],
+          [true]
+        ],
+        [
+          [false, false, true],
+          [false, true, true],
+          [true, true, false]
+        ]
+      ]
+		},
+    {
+			"name": "Farmland",
+      "time": 1,
+			"types": [2],
+      "coin": true,
+			"shape": [
+        [
+          [true],
+          [true]
+        ],
+        [
+          [false, true, false],
+          [true, true, true],
+          [false, true, false]
+        ]
+      ]
+		},
+    {
+			"name": "Hamlet",
+      "time": 1,
+			"types": [3],
+      "coin": true,
+			"shape": [
+        [
+          [true, false],
+          [true, true]
+        ],
+        [
+          [true, true, true],
+          [true, true, false]
+        ]
+      ]
+		},
+    {
+			"name": "Forgotten Forest",
+      "time": 1,
+			"types": [4],
+      "coin": true,
+			"shape": [
+        [
+          [true, false],
+          [false, true]
+        ],
+        [
+          [true, false],
+          [true, true],
+          [false, true]
+        ]
+      ]
+		},
+    {
+			"name": "Hinterland Stream",
+      "time": 2,
+			"types": [2, 1],
+      "coin": false,
+			"shape": [
+        [
+          [true, true, true],
+          [true, false, false],
+          [true, false, false]
+        ]
+      ]
+		},
+    {
+			"name": "Homestead",
+      "time": 2,
+			"types": [3, 2],
+      "coin": false,
+			"shape": [
+        [
+          [true, false],
+          [true, true],
+          [true, false]
+        ]
+      ]
+		},
+    {
+			"name": "Orchard",
+      "time": 2,
+			"types": [4, 2],
+      "coin": false,
+			"shape": [
+        [
+          [true, true, true],
+          [false, false, true]
+        ]
+      ]
+		},
+    {
+			"name": "Treetop Village",
+      "time": 2,
+			"types": [4, 3],
+      "coin": false,
+			"shape": [
+        [
+          [false, false, true, true],
+          [true, true, true, false]
+        ]
+      ]
+		},
+    {
+			"name": "Marshlands",
+      "time": 2,
+			"types": [4, 1],
+      "coin": false,
+			"shape": [
+        [
+          [true, false, false],
+          [true, true, true],
+          [true, false, false]
+        ]
+      ]
+		},
+    {
+			"name": "Fishing Village",
+      "time": 2,
+			"types": [3, 1],
+      "coin": false,
+			"shape": [
+        [
+          [true, true, true, true]
+        ]
+      ]
+		},
+    {
+			"name": "Rift Lands",
+      "time": 0,
+			"types": [4, 3, 2, 1, 5],
+      "coin": false,
+			"shape": [
+        [
+          [true]
+        ]
+      ]
+		}
+  ]
+}
