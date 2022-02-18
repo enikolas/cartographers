@@ -1,0 +1,90 @@
+{
+  "forest": [
+    {
+      "name": "Sentinel Wood",
+      "description": "Earn one reputation star (1⭐) for each forest space (🌲) adjacent to the edge of the map.",
+      "solo": 25
+    },
+    {
+      "name": "Greenbough",
+      "description": "Earn one reputation star (1⭐) for each row and column with at least one forest space (🌲). The same forest space (🌲) may be scored in a row and a column.",
+      "solo": 22
+    },
+    {
+      "name": "Treetower",
+      "description": "Earn one reputation star (1⭐) for each forest space (🌲) surrounded on all four sides by filled spaces or the edge of the map.",
+      "solo": 17
+    },
+    {
+      "name": "Stoneside Forest",
+      "description": "Earn three reputation stars (3⭐) for each mountain space (🗻) connected to another mountain space (🗻) by a cluster of forest spaces (🌲).",
+      "solo": 18
+    }
+  ],
+  "waterAndFarm": [
+    {
+      "name": "Canal Lake",
+      "description": "Earn one reputation star (1⭐) for each water space (💧) adjacent to at least one farm space (🌱).\n\nEarn one reputation star (1⭐) for each farm space (🌱) adjacent to at least one water space (💧).",
+      "solo": 24
+    },
+    {
+      "name": "Mages Valley",
+      "description": "Earn two reputation stars (2⭐) for each water space (💧) adjacent to a mountain space (🗻).\n\nEarn one reputation star (1⭐) for each farm space (🌱) adjacent to a mountain space.",
+      "solo": 22
+    },
+    {
+      "name": "The Golden Granary",
+      "description": "Earn one reputation star (1⭐) for each water space (💧) adjacent to a ruins space (🏛).\n\nEarn three reputation stars (3⭐) for each farm space (🌱) on a ruins space (🏛).",
+      "solo": 20
+    },
+    {
+      "name": "Shoreside Expanse",
+      "description": "Earn three reputation stars (3⭐) for each cluster of farm spaces (🌱) not adjacent to a water space (💧) or the edge of the map.\n\nEarn three reputation stars (3⭐) for each cluster of water spaces (💧) not adjacent to a farm space (🌱) or the edge of the map.",
+      "solo": 27
+    }
+  ],
+  "village": [
+    {
+      "name": "Wildholds",
+      "description": "Earn eight reputation stars (8⭐) for each cluster of six or more village spaces (6+ 🏠).",
+      "solo": 16
+    },
+    {
+      "name": "Great City",
+      "description": "Earn one reputation star (1⭐) for each village space (🏠) in the largest cluster of village spaces (>🏠) that is not adjacent to a mountain space (🚫🗻).",
+      "solo": 16
+    },
+    {
+      "name": "Greengold Plains",
+      "description": "Earn three reputation stars (3⭐) for each cluster of village spaces (🏠) that is adjacent to three or more DIFFERENT terrain types (3+ 🌲🌱💧👾🗻).",
+      "solo": 21
+    },
+    {
+      "name": "Shieldgate",
+      "description": "Earn two reputation stars (2⭐) for each village space (🏠) in the second largest cluster of village spaces (🏠❌ > 🏠✅).",
+      "solo": 20
+    }
+  ],
+  "space": [
+    {
+      "name": "Borderlands",
+      "description": "Earn six reputation stars (6⭐) for each COMPLETE ROW (🔛) or COMPLETE COLUMN (🔝) of filled spaces.",
+      "solo": 24
+    },
+    {
+      "name": "Lost Barony",
+      "description": "Earn three reputation stars (3⭐) for each space along one edge of the largest square (>❎) of filled spaces.",
+      "solo": 24
+    },
+    {
+      "name": "The Broken Road",
+      "description": "Earn three reputation stars (3⭐) for each complete diagonal line (↘) of filled spaces that touches the LEFT (👈) and BOTTOM (👇) edges of the map (↘✅ | ↗❌).",
+      "solo": 24
+    },
+    {
+      "name": "The Cauldrons",
+      "description": "Earn one reputation star (1⭐) for each empty space (🍃) surrounded on all four sides by filled spaces or the edge of the map.",
+      "solo": 20
+    }
+  ]
+}
